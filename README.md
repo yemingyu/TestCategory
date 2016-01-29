@@ -1,0 +1,2 @@
+# TestCategory
+测试category与原来的class加载的顺序，以及当多个category的函数一样时，加载哪个函数，并且当存在category时，如何调用原来的class中的函数
