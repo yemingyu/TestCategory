@@ -18,6 +18,7 @@
 		D64113FD1C5BC75A0021C4B2 /* MYMainClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D64113FC1C5BC75A0021C4B2 /* MYMainClass.m */; };
 		D64114031C5BC8350021C4B2 /* MYMainClass+Category1.m in Sources */ = {isa = PBXBuildFile; fileRef = D64114021C5BC8350021C4B2 /* MYMainClass+Category1.m */; };
 		D64114061C5BC8580021C4B2 /* MYMainClass+Category2.m in Sources */ = {isa = PBXBuildFile; fileRef = D64114051C5BC8580021C4B2 /* MYMainClass+Category2.m */; };
+		D64114091C5C74690021C4B2 /* MYMainClassRewrite.m in Sources */ = {isa = PBXBuildFile; fileRef = D64114081C5C74690021C4B2 /* MYMainClassRewrite.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		D64114021C5BC8350021C4B2 /* MYMainClass+Category1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MYMainClass+Category1.m"; sourceTree = "<group>"; };
 		D64114041C5BC8580021C4B2 /* MYMainClass+Category2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MYMainClass+Category2.h"; sourceTree = "<group>"; };
 		D64114051C5BC8580021C4B2 /* MYMainClass+Category2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MYMainClass+Category2.m"; sourceTree = "<group>"; };
+		D64114071C5C74690021C4B2 /* MYMainClassRewrite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYMainClassRewrite.h; sourceTree = "<group>"; };
+		D64114081C5C74690021C4B2 /* MYMainClassRewrite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYMainClassRewrite.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 			children = (
 				D64113CB1C5BC6DE0021C4B2 /* AppDelegate.h */,
 				D64113CC1C5BC6DE0021C4B2 /* AppDelegate.m */,
+				D64114071C5C74690021C4B2 /* MYMainClassRewrite.h */,
+				D64114081C5C74690021C4B2 /* MYMainClassRewrite.m */,
 				D64113FB1C5BC75A0021C4B2 /* MYMainClass.h */,
 				D64113FC1C5BC75A0021C4B2 /* MYMainClass.m */,
 				D64114011C5BC8350021C4B2 /* MYMainClass+Category1.h */,
@@ -286,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D64113D01C5BC6DE0021C4B2 /* ViewController.m in Sources */,
+				D64114091C5C74690021C4B2 /* MYMainClassRewrite.m in Sources */,
 				D64113FD1C5BC75A0021C4B2 /* MYMainClass.m in Sources */,
 				D64114061C5BC8580021C4B2 /* MYMainClass+Category2.m in Sources */,
 				D64113CD1C5BC6DE0021C4B2 /* AppDelegate.m in Sources */,
@@ -516,6 +522,7 @@
 				D64113F41C5BC6DE0021C4B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D64113F51C5BC6DE0021C4B2 /* Build configuration list for PBXNativeTarget "MYTestCategoryTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +531,7 @@
 				D64113F71C5BC6DE0021C4B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D64113F81C5BC6DE0021C4B2 /* Build configuration list for PBXNativeTarget "MYTestCategoryUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +540,7 @@
 				D64113FA1C5BC6DE0021C4B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
